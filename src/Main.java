@@ -18,7 +18,7 @@ public class Main {
 			do {
 				menu();
 				indice = ler.nextInt();
-	            ler.nextLine();
+	            ler.nextLine();	            
 	            
 	            switch(indice){
                 case 1:

@@ -5,7 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexao {
-    private static final String url = "jdbc:mysql://localhost:3306/dbjava";
+//	Informações necessárias para a conexão
+    private static final String url = "jdbc:mysql://localhost:3306/bancodados"; //Só trocar o nome do BD
     private static final String user = "root"; 
     private static final String password = "root"; 
 
